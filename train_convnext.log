@@ -1,0 +1,1056 @@
+nohup: ignoring input
+   image_num  vote_1    vote_2  ...    vote_8    vote_9   vote_10
+0     953417     0.0  0.000000  ...  0.080645  0.024194  0.008065
+1     953777     0.0  0.023438  ...  0.164062  0.062500  0.023438
+2     953756     0.0  0.015625  ...  0.039062  0.015625  0.015625
+3     954195     0.0  0.008197  ...  0.008197  0.000000  0.016393
+4     953903     0.0  0.008065  ...  0.072581  0.024194  0.016129
+
+[5 rows x 11 columns]
+Index(['image_num', 'vote_1', 'vote_2', 'vote_3', 'vote_4', 'vote_5', 'vote_6',
+       'vote_7', 'vote_8', 'vote_9', 'vote_10'],
+      dtype='object')
+2.5.1+cu121
+0.20.1+cu121
+/home/elicer/.local/lib/python3.10/site-packages/torch/__init__.py
+/home/elicer/.local/lib/python3.10/site-packages/torchvision/__init__.py
+204406 25551 25551
+/home/elicer/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py:617: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+torch.Size([64, 3, 224, 224])
+torch.Size([64, 10])
+tensor(1.)
+/home/elicer/nima_with_ConvNeXt.py:325: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+True
+Starting training...
+/home/elicer/nima_with_ConvNeXt.py:401: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch [1/100], Step [100/3194] Loss: 0.0260
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [200/3194] Loss: 0.0215
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [300/3194] Loss: 0.0189
+Epoch [1/100], Step [400/3194] Loss: 0.0172
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [500/3194] Loss: 0.0159
+Epoch [1/100], Step [600/3194] Loss: 0.0150
+Epoch [1/100], Step [700/3194] Loss: 0.0143
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [800/3194] Loss: 0.0137
+Epoch [1/100], Step [900/3194] Loss: 0.0132
+Epoch [1/100], Step [1000/3194] Loss: 0.0128
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [1100/3194] Loss: 0.0125
+Epoch [1/100], Step [1200/3194] Loss: 0.0122
+Epoch [1/100], Step [1300/3194] Loss: 0.0119
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [1400/3194] Loss: 0.0117
+Epoch [1/100], Step [1500/3194] Loss: 0.0115
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [1600/3194] Loss: 0.0113
+Epoch [1/100], Step [1700/3194] Loss: 0.0111
+Epoch [1/100], Step [1800/3194] Loss: 0.0110
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [1900/3194] Loss: 0.0108
+Epoch [1/100], Step [2000/3194] Loss: 0.0107
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [2100/3194] Loss: 0.0106
+Epoch [1/100], Step [2200/3194] Loss: 0.0105
+Epoch [1/100], Step [2300/3194] Loss: 0.0104
+Epoch [1/100], Step [2400/3194] Loss: 0.0103
+Epoch [1/100], Step [2500/3194] Loss: 0.0102
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [2600/3194] Loss: 0.0101
+Epoch [1/100], Step [2700/3194] Loss: 0.0100
+Epoch [1/100], Step [2800/3194] Loss: 0.0100
+Epoch [1/100], Step [2900/3194] Loss: 0.0099
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [3000/3194] Loss: 0.0099
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100], Step [3100/3194] Loss: 0.0098
+/home/elicer/nima_with_ConvNeXt.py:343: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [1/100] Validation Loss: 0.0080 Validation MAE: 0.4731
+Best model saved.
+Epoch [2/100], Step [100/3194] Loss: 0.0081
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [200/3194] Loss: 0.0081
+Epoch [2/100], Step [300/3194] Loss: 0.0080
+Epoch [2/100], Step [400/3194] Loss: 0.0080
+Epoch [2/100], Step [500/3194] Loss: 0.0080
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [600/3194] Loss: 0.0080
+Epoch [2/100], Step [700/3194] Loss: 0.0079
+Epoch [2/100], Step [800/3194] Loss: 0.0079
+Epoch [2/100], Step [900/3194] Loss: 0.0080
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [1000/3194] Loss: 0.0080
+Epoch [2/100], Step [1100/3194] Loss: 0.0079
+Epoch [2/100], Step [1200/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [1300/3194] Loss: 0.0079
+Epoch [2/100], Step [1400/3194] Loss: 0.0079
+Epoch [2/100], Step [1500/3194] Loss: 0.0079
+Epoch [2/100], Step [1600/3194] Loss: 0.0079
+Epoch [2/100], Step [1700/3194] Loss: 0.0079
+Epoch [2/100], Step [1800/3194] Loss: 0.0079
+Epoch [2/100], Step [1900/3194] Loss: 0.0079
+Epoch [2/100], Step [2000/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [2100/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [2200/3194] Loss: 0.0079
+Epoch [2/100], Step [2300/3194] Loss: 0.0079
+Epoch [2/100], Step [2400/3194] Loss: 0.0079
+Epoch [2/100], Step [2500/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [2600/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [2700/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [2800/3194] Loss: 0.0079
+Epoch [2/100], Step [2900/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [3000/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100], Step [3100/3194] Loss: 0.0079
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [2/100] Validation Loss: 0.0078 Validation MAE: 0.4680
+Best model saved.
+Epoch [3/100], Step [100/3194] Loss: 0.0077
+Epoch [3/100], Step [200/3194] Loss: 0.0077
+Epoch [3/100], Step [300/3194] Loss: 0.0077
+Epoch [3/100], Step [400/3194] Loss: 0.0077
+Epoch [3/100], Step [500/3194] Loss: 0.0077
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [600/3194] Loss: 0.0077
+Epoch [3/100], Step [700/3194] Loss: 0.0077
+Epoch [3/100], Step [800/3194] Loss: 0.0077
+Epoch [3/100], Step [900/3194] Loss: 0.0077
+Epoch [3/100], Step [1000/3194] Loss: 0.0077
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [1100/3194] Loss: 0.0077
+Epoch [3/100], Step [1200/3194] Loss: 0.0077
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [1300/3194] Loss: 0.0078
+Epoch [3/100], Step [1400/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [1500/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [1600/3194] Loss: 0.0078
+Epoch [3/100], Step [1700/3194] Loss: 0.0078
+Epoch [3/100], Step [1800/3194] Loss: 0.0078
+Epoch [3/100], Step [1900/3194] Loss: 0.0078
+Epoch [3/100], Step [2000/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [2100/3194] Loss: 0.0078
+Epoch [3/100], Step [2200/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [2300/3194] Loss: 0.0078
+Epoch [3/100], Step [2400/3194] Loss: 0.0078
+Epoch [3/100], Step [2500/3194] Loss: 0.0078
+Epoch [3/100], Step [2600/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [2700/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100], Step [2800/3194] Loss: 0.0078
+Epoch [3/100], Step [2900/3194] Loss: 0.0078
+Epoch [3/100], Step [3000/3194] Loss: 0.0078
+Epoch [3/100], Step [3100/3194] Loss: 0.0078
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [3/100] Validation Loss: 0.0077 Validation MAE: 0.4659
+Best model saved.
+Unfreezing ConvNeXt last stage
+Epoch [4/100], Step [100/3194] Loss: 0.0078
+Epoch [4/100], Step [200/3194] Loss: 0.0078
+Epoch [4/100], Step [300/3194] Loss: 0.0077
+Epoch [4/100], Step [400/3194] Loss: 0.0077
+Epoch [4/100], Step [500/3194] Loss: 0.0076
+Epoch [4/100], Step [600/3194] Loss: 0.0076
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [700/3194] Loss: 0.0076
+Epoch [4/100], Step [800/3194] Loss: 0.0075
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [900/3194] Loss: 0.0075
+Epoch [4/100], Step [1000/3194] Loss: 0.0075
+Epoch [4/100], Step [1100/3194] Loss: 0.0075
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [1200/3194] Loss: 0.0075
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [1300/3194] Loss: 0.0075
+Epoch [4/100], Step [1400/3194] Loss: 0.0074
+Epoch [4/100], Step [1500/3194] Loss: 0.0074
+Epoch [4/100], Step [1600/3194] Loss: 0.0074
+Epoch [4/100], Step [1700/3194] Loss: 0.0074
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [1800/3194] Loss: 0.0074
+Epoch [4/100], Step [1900/3194] Loss: 0.0074
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [2000/3194] Loss: 0.0074
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [2100/3194] Loss: 0.0074
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [2200/3194] Loss: 0.0074
+Epoch [4/100], Step [2300/3194] Loss: 0.0074
+Epoch [4/100], Step [2400/3194] Loss: 0.0073
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [2500/3194] Loss: 0.0073
+Epoch [4/100], Step [2600/3194] Loss: 0.0073
+Epoch [4/100], Step [2700/3194] Loss: 0.0073
+Epoch [4/100], Step [2800/3194] Loss: 0.0073
+Epoch [4/100], Step [2900/3194] Loss: 0.0073
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [3000/3194] Loss: 0.0073
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100], Step [3100/3194] Loss: 0.0073
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [4/100] Validation Loss: 0.0069 Validation MAE: 0.4404
+Best model saved.
+Epoch [5/100], Step [100/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [200/3194] Loss: 0.0070
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [300/3194] Loss: 0.0069
+Epoch [5/100], Step [400/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [500/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [600/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [700/3194] Loss: 0.0069
+Epoch [5/100], Step [800/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [900/3194] Loss: 0.0069
+Epoch [5/100], Step [1000/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [1100/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [1200/3194] Loss: 0.0069
+Epoch [5/100], Step [1300/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [1400/3194] Loss: 0.0069
+Epoch [5/100], Step [1500/3194] Loss: 0.0069
+Epoch [5/100], Step [1600/3194] Loss: 0.0069
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [1700/3194] Loss: 0.0069
+Epoch [5/100], Step [1800/3194] Loss: 0.0069
+Epoch [5/100], Step [1900/3194] Loss: 0.0069
+Epoch [5/100], Step [2000/3194] Loss: 0.0069
+Epoch [5/100], Step [2100/3194] Loss: 0.0068
+Epoch [5/100], Step [2200/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [2300/3194] Loss: 0.0068
+Epoch [5/100], Step [2400/3194] Loss: 0.0068
+Epoch [5/100], Step [2500/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [2600/3194] Loss: 0.0068
+Epoch [5/100], Step [2700/3194] Loss: 0.0068
+Epoch [5/100], Step [2800/3194] Loss: 0.0068
+Epoch [5/100], Step [2900/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100], Step [3000/3194] Loss: 0.0068
+Epoch [5/100], Step [3100/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [5/100] Validation Loss: 0.0067 Validation MAE: 0.4322
+Best model saved.
+Epoch [6/100], Step [100/3194] Loss: 0.0068
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [200/3194] Loss: 0.0067
+Epoch [6/100], Step [300/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [400/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [500/3194] Loss: 0.0066
+Epoch [6/100], Step [600/3194] Loss: 0.0066
+Epoch [6/100], Step [700/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [800/3194] Loss: 0.0066
+Epoch [6/100], Step [900/3194] Loss: 0.0066
+Epoch [6/100], Step [1000/3194] Loss: 0.0066
+Epoch [6/100], Step [1100/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [1200/3194] Loss: 0.0066
+Epoch [6/100], Step [1300/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [1400/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [1500/3194] Loss: 0.0066
+Epoch [6/100], Step [1600/3194] Loss: 0.0066
+Epoch [6/100], Step [1700/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [1800/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [1900/3194] Loss: 0.0066
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [2000/3194] Loss: 0.0065
+Epoch [6/100], Step [2100/3194] Loss: 0.0065
+Epoch [6/100], Step [2200/3194] Loss: 0.0065
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [2300/3194] Loss: 0.0065
+Epoch [6/100], Step [2400/3194] Loss: 0.0065
+Epoch [6/100], Step [2500/3194] Loss: 0.0065
+Epoch [6/100], Step [2600/3194] Loss: 0.0065
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100], Step [2700/3194] Loss: 0.0065
+Epoch [6/100], Step [2800/3194] Loss: 0.0065
+Epoch [6/100], Step [2900/3194] Loss: 0.0065
+Epoch [6/100], Step [3000/3194] Loss: 0.0065
+Epoch [6/100], Step [3100/3194] Loss: 0.0065
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [6/100] Validation Loss: 0.0066 Validation MAE: 0.4274
+Best model saved.
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [100/3194] Loss: 0.0064
+Epoch [7/100], Step [200/3194] Loss: 0.0065
+Epoch [7/100], Step [300/3194] Loss: 0.0064
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [400/3194] Loss: 0.0064
+Epoch [7/100], Step [500/3194] Loss: 0.0064
+Epoch [7/100], Step [600/3194] Loss: 0.0064
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [700/3194] Loss: 0.0063
+Epoch [7/100], Step [800/3194] Loss: 0.0064
+Epoch [7/100], Step [900/3194] Loss: 0.0064
+Epoch [7/100], Step [1000/3194] Loss: 0.0063
+Epoch [7/100], Step [1100/3194] Loss: 0.0063
+Epoch [7/100], Step [1200/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [1300/3194] Loss: 0.0063
+Epoch [7/100], Step [1400/3194] Loss: 0.0063
+Epoch [7/100], Step [1500/3194] Loss: 0.0063
+Epoch [7/100], Step [1600/3194] Loss: 0.0063
+Epoch [7/100], Step [1700/3194] Loss: 0.0063
+Epoch [7/100], Step [1800/3194] Loss: 0.0063
+Epoch [7/100], Step [1900/3194] Loss: 0.0063
+Epoch [7/100], Step [2000/3194] Loss: 0.0063
+Epoch [7/100], Step [2100/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [2200/3194] Loss: 0.0063
+Epoch [7/100], Step [2300/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [2400/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [2500/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [2600/3194] Loss: 0.0063
+Epoch [7/100], Step [2700/3194] Loss: 0.0063
+Epoch [7/100], Step [2800/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100], Step [2900/3194] Loss: 0.0063
+Epoch [7/100], Step [3000/3194] Loss: 0.0063
+Epoch [7/100], Step [3100/3194] Loss: 0.0063
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [7/100] Validation Loss: 0.0065 Validation MAE: 0.4244
+Best model saved.
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [100/3194] Loss: 0.0062
+Epoch [8/100], Step [200/3194] Loss: 0.0061
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [300/3194] Loss: 0.0062
+Epoch [8/100], Step [400/3194] Loss: 0.0062
+Epoch [8/100], Step [500/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [600/3194] Loss: 0.0062
+Epoch [8/100], Step [700/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [800/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [900/3194] Loss: 0.0062
+Epoch [8/100], Step [1000/3194] Loss: 0.0062
+Epoch [8/100], Step [1100/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [1200/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [1300/3194] Loss: 0.0062
+Epoch [8/100], Step [1400/3194] Loss: 0.0062
+Epoch [8/100], Step [1500/3194] Loss: 0.0062
+Epoch [8/100], Step [1600/3194] Loss: 0.0062
+Epoch [8/100], Step [1700/3194] Loss: 0.0062
+Epoch [8/100], Step [1800/3194] Loss: 0.0062
+Epoch [8/100], Step [1900/3194] Loss: 0.0061
+Epoch [8/100], Step [2000/3194] Loss: 0.0062
+Epoch [8/100], Step [2100/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [2200/3194] Loss: 0.0062
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [2300/3194] Loss: 0.0061
+Epoch [8/100], Step [2400/3194] Loss: 0.0061
+Epoch [8/100], Step [2500/3194] Loss: 0.0061
+Epoch [8/100], Step [2600/3194] Loss: 0.0061
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [2700/3194] Loss: 0.0061
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100], Step [2800/3194] Loss: 0.0061
+Epoch [8/100], Step [2900/3194] Loss: 0.0061
+Epoch [8/100], Step [3000/3194] Loss: 0.0061
+Epoch [8/100], Step [3100/3194] Loss: 0.0061
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [8/100] Validation Loss: 0.0065 Validation MAE: 0.4229
+Best model saved.
+Epoch [9/100], Step [100/3194] Loss: 0.0061
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [200/3194] Loss: 0.0060
+Epoch [9/100], Step [300/3194] Loss: 0.0061
+Epoch [9/100], Step [400/3194] Loss: 0.0061
+Epoch [9/100], Step [500/3194] Loss: 0.0061
+Epoch [9/100], Step [600/3194] Loss: 0.0060
+Epoch [9/100], Step [700/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [800/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [900/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [1000/3194] Loss: 0.0060
+Epoch [9/100], Step [1100/3194] Loss: 0.0060
+Epoch [9/100], Step [1200/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [1300/3194] Loss: 0.0060
+Epoch [9/100], Step [1400/3194] Loss: 0.0060
+Epoch [9/100], Step [1500/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [1600/3194] Loss: 0.0060
+Epoch [9/100], Step [1700/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [1800/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [1900/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [2000/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [2100/3194] Loss: 0.0060
+Epoch [9/100], Step [2200/3194] Loss: 0.0060
+Epoch [9/100], Step [2300/3194] Loss: 0.0060
+Epoch [9/100], Step [2400/3194] Loss: 0.0060
+Epoch [9/100], Step [2500/3194] Loss: 0.0060
+Epoch [9/100], Step [2600/3194] Loss: 0.0060
+Epoch [9/100], Step [2700/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100], Step [2800/3194] Loss: 0.0060
+Epoch [9/100], Step [2900/3194] Loss: 0.0060
+Epoch [9/100], Step [3000/3194] Loss: 0.0060
+Epoch [9/100], Step [3100/3194] Loss: 0.0060
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [9/100] Validation Loss: 0.0064 Validation MAE: 0.4207
+Best model saved.
+Epoch [10/100], Step [100/3194] Loss: 0.0060
+Epoch [10/100], Step [200/3194] Loss: 0.0059
+Epoch [10/100], Step [300/3194] Loss: 0.0059
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [400/3194] Loss: 0.0059
+Epoch [10/100], Step [500/3194] Loss: 0.0059
+Epoch [10/100], Step [600/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [700/3194] Loss: 0.0058
+Epoch [10/100], Step [800/3194] Loss: 0.0058
+Epoch [10/100], Step [900/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1000/3194] Loss: 0.0058
+Epoch [10/100], Step [1100/3194] Loss: 0.0058
+Epoch [10/100], Step [1200/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1300/3194] Loss: 0.0058
+Epoch [10/100], Step [1400/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1500/3194] Loss: 0.0058
+Epoch [10/100], Step [1600/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1700/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1800/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [1900/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [2000/3194] Loss: 0.0058
+Epoch [10/100], Step [2100/3194] Loss: 0.0058
+Epoch [10/100], Step [2200/3194] Loss: 0.0058
+Epoch [10/100], Step [2300/3194] Loss: 0.0058
+Epoch [10/100], Step [2400/3194] Loss: 0.0058
+Epoch [10/100], Step [2500/3194] Loss: 0.0058
+Epoch [10/100], Step [2600/3194] Loss: 0.0058
+Epoch [10/100], Step [2700/3194] Loss: 0.0058
+Epoch [10/100], Step [2800/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [2900/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100], Step [3000/3194] Loss: 0.0058
+Epoch [10/100], Step [3100/3194] Loss: 0.0058
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [10/100] Validation Loss: 0.0064 Validation MAE: 0.4202
+Best model saved.
+Epoch [11/100], Step [100/3194] Loss: 0.0058
+Epoch [11/100], Step [200/3194] Loss: 0.0057
+Epoch [11/100], Step [300/3194] Loss: 0.0057
+Epoch [11/100], Step [400/3194] Loss: 0.0057
+Epoch [11/100], Step [500/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [600/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [700/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [800/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [900/3194] Loss: 0.0057
+Epoch [11/100], Step [1000/3194] Loss: 0.0057
+Epoch [11/100], Step [1100/3194] Loss: 0.0057
+Epoch [11/100], Step [1200/3194] Loss: 0.0057
+Epoch [11/100], Step [1300/3194] Loss: 0.0057
+Epoch [11/100], Step [1400/3194] Loss: 0.0057
+Epoch [11/100], Step [1500/3194] Loss: 0.0057
+Epoch [11/100], Step [1600/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [1700/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [1800/3194] Loss: 0.0057
+Epoch [11/100], Step [1900/3194] Loss: 0.0057
+Epoch [11/100], Step [2000/3194] Loss: 0.0057
+Epoch [11/100], Step [2100/3194] Loss: 0.0057
+Epoch [11/100], Step [2200/3194] Loss: 0.0057
+Epoch [11/100], Step [2300/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [2400/3194] Loss: 0.0057
+Epoch [11/100], Step [2500/3194] Loss: 0.0057
+Epoch [11/100], Step [2600/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [2700/3194] Loss: 0.0057
+Epoch [11/100], Step [2800/3194] Loss: 0.0057
+Epoch [11/100], Step [2900/3194] Loss: 0.0057
+Epoch [11/100], Step [3000/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100], Step [3100/3194] Loss: 0.0057
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [11/100] Validation Loss: 0.0064 Validation MAE: 0.4200
+Best model saved.
+Epoch [12/100], Step [100/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [200/3194] Loss: 0.0054
+Epoch [12/100], Step [300/3194] Loss: 0.0055
+Epoch [12/100], Step [400/3194] Loss: 0.0055
+Epoch [12/100], Step [500/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [600/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [700/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [800/3194] Loss: 0.0055
+Epoch [12/100], Step [900/3194] Loss: 0.0055
+Epoch [12/100], Step [1000/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [1100/3194] Loss: 0.0055
+Epoch [12/100], Step [1200/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [1300/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [1400/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [1500/3194] Loss: 0.0055
+Epoch [12/100], Step [1600/3194] Loss: 0.0055
+Epoch [12/100], Step [1700/3194] Loss: 0.0055
+Epoch [12/100], Step [1800/3194] Loss: 0.0055
+Epoch [12/100], Step [1900/3194] Loss: 0.0055
+Epoch [12/100], Step [2000/3194] Loss: 0.0055
+Epoch [12/100], Step [2100/3194] Loss: 0.0055
+Epoch [12/100], Step [2200/3194] Loss: 0.0055
+Epoch [12/100], Step [2300/3194] Loss: 0.0055
+Epoch [12/100], Step [2400/3194] Loss: 0.0055
+Epoch [12/100], Step [2500/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [2600/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [2700/3194] Loss: 0.0055
+Epoch [12/100], Step [2800/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [2900/3194] Loss: 0.0055
+Epoch [12/100], Step [3000/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100], Step [3100/3194] Loss: 0.0055
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [12/100] Validation Loss: 0.0064 Validation MAE: 0.4209
+Early stop counter: 1/3
+Epoch [13/100], Step [100/3194] Loss: 0.0054
+Epoch [13/100], Step [200/3194] Loss: 0.0054
+Epoch [13/100], Step [300/3194] Loss: 0.0054
+Epoch [13/100], Step [400/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [500/3194] Loss: 0.0054
+Epoch [13/100], Step [600/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [700/3194] Loss: 0.0054
+Epoch [13/100], Step [800/3194] Loss: 0.0054
+Epoch [13/100], Step [900/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1000/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1100/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1200/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1300/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1400/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1500/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1600/3194] Loss: 0.0054
+Epoch [13/100], Step [1700/3194] Loss: 0.0054
+Epoch [13/100], Step [1800/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [1900/3194] Loss: 0.0054
+Epoch [13/100], Step [2000/3194] Loss: 0.0054
+Epoch [13/100], Step [2100/3194] Loss: 0.0054
+Epoch [13/100], Step [2200/3194] Loss: 0.0054
+Epoch [13/100], Step [2300/3194] Loss: 0.0054
+Epoch [13/100], Step [2400/3194] Loss: 0.0054
+Epoch [13/100], Step [2500/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [2600/3194] Loss: 0.0054
+Epoch [13/100], Step [2700/3194] Loss: 0.0054
+Epoch [13/100], Step [2800/3194] Loss: 0.0054
+Epoch [13/100], Step [2900/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100], Step [3000/3194] Loss: 0.0054
+Epoch [13/100], Step [3100/3194] Loss: 0.0054
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [13/100] Validation Loss: 0.0064 Validation MAE: 0.4193
+Best model saved.
+Epoch [14/100], Step [100/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [200/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [300/3194] Loss: 0.0052
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [400/3194] Loss: 0.0052
+Epoch [14/100], Step [500/3194] Loss: 0.0052
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [600/3194] Loss: 0.0052
+Epoch [14/100], Step [700/3194] Loss: 0.0052
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [800/3194] Loss: 0.0052
+Epoch [14/100], Step [900/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [1000/3194] Loss: 0.0053
+Epoch [14/100], Step [1100/3194] Loss: 0.0053
+Epoch [14/100], Step [1200/3194] Loss: 0.0053
+Epoch [14/100], Step [1300/3194] Loss: 0.0053
+Epoch [14/100], Step [1400/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [1500/3194] Loss: 0.0053
+Epoch [14/100], Step [1600/3194] Loss: 0.0053
+Epoch [14/100], Step [1700/3194] Loss: 0.0053
+Epoch [14/100], Step [1800/3194] Loss: 0.0053
+Epoch [14/100], Step [1900/3194] Loss: 0.0053
+Epoch [14/100], Step [2000/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [2100/3194] Loss: 0.0053
+Epoch [14/100], Step [2200/3194] Loss: 0.0053
+Epoch [14/100], Step [2300/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [2400/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [2500/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100], Step [2600/3194] Loss: 0.0053
+Epoch [14/100], Step [2700/3194] Loss: 0.0053
+Epoch [14/100], Step [2800/3194] Loss: 0.0053
+Epoch [14/100], Step [2900/3194] Loss: 0.0053
+Epoch [14/100], Step [3000/3194] Loss: 0.0053
+Epoch [14/100], Step [3100/3194] Loss: 0.0053
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [14/100] Validation Loss: 0.0064 Validation MAE: 0.4210
+Early stop counter: 1/3
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [100/3194] Loss: 0.0051
+Epoch [15/100], Step [200/3194] Loss: 0.0050
+Epoch [15/100], Step [300/3194] Loss: 0.0051
+Epoch [15/100], Step [400/3194] Loss: 0.0051
+Epoch [15/100], Step [500/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [600/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [700/3194] Loss: 0.0051
+Epoch [15/100], Step [800/3194] Loss: 0.0051
+Epoch [15/100], Step [900/3194] Loss: 0.0051
+Epoch [15/100], Step [1000/3194] Loss: 0.0051
+Epoch [15/100], Step [1100/3194] Loss: 0.0051
+Epoch [15/100], Step [1200/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [1300/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [1400/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [1500/3194] Loss: 0.0051
+Epoch [15/100], Step [1600/3194] Loss: 0.0051
+Epoch [15/100], Step [1700/3194] Loss: 0.0051
+Epoch [15/100], Step [1800/3194] Loss: 0.0051
+Epoch [15/100], Step [1900/3194] Loss: 0.0051
+Epoch [15/100], Step [2000/3194] Loss: 0.0051
+Epoch [15/100], Step [2100/3194] Loss: 0.0051
+Epoch [15/100], Step [2200/3194] Loss: 0.0051
+Epoch [15/100], Step [2300/3194] Loss: 0.0051
+Epoch [15/100], Step [2400/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [2500/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [2600/3194] Loss: 0.0051
+Epoch [15/100], Step [2700/3194] Loss: 0.0051
+Epoch [15/100], Step [2800/3194] Loss: 0.0051
+Epoch [15/100], Step [2900/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100], Step [3000/3194] Loss: 0.0051
+Epoch [15/100], Step [3100/3194] Loss: 0.0051
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [15/100] Validation Loss: 0.0064 Validation MAE: 0.4214
+Early stop counter: 2/3
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [100/3194] Loss: 0.0049
+Epoch [16/100], Step [200/3194] Loss: 0.0049
+Epoch [16/100], Step [300/3194] Loss: 0.0049
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [400/3194] Loss: 0.0049
+Epoch [16/100], Step [500/3194] Loss: 0.0049
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [600/3194] Loss: 0.0049
+Epoch [16/100], Step [700/3194] Loss: 0.0050
+Epoch [16/100], Step [800/3194] Loss: 0.0049
+Epoch [16/100], Step [900/3194] Loss: 0.0050
+Epoch [16/100], Step [1000/3194] Loss: 0.0049
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [1100/3194] Loss: 0.0049
+Epoch [16/100], Step [1200/3194] Loss: 0.0049
+Epoch [16/100], Step [1300/3194] Loss: 0.0049
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [1400/3194] Loss: 0.0049
+Epoch [16/100], Step [1500/3194] Loss: 0.0050
+Epoch [16/100], Step [1600/3194] Loss: 0.0050
+Epoch [16/100], Step [1700/3194] Loss: 0.0050
+Epoch [16/100], Step [1800/3194] Loss: 0.0050
+Epoch [16/100], Step [1900/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [2000/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [2100/3194] Loss: 0.0050
+Epoch [16/100], Step [2200/3194] Loss: 0.0050
+Epoch [16/100], Step [2300/3194] Loss: 0.0050
+Epoch [16/100], Step [2400/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [2500/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [2600/3194] Loss: 0.0050
+Epoch [16/100], Step [2700/3194] Loss: 0.0050
+Epoch [16/100], Step [2800/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [2900/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100], Step [3000/3194] Loss: 0.0050
+Epoch [16/100], Step [3100/3194] Loss: 0.0050
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Epoch [16/100] Validation Loss: 0.0065 Validation MAE: 0.4226
+Early stop counter: 3/3
+Early Stopping!
+/home/elicer/nima_with_ConvNeXt.py:459: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load("./vit_best.pt", map_location=device)
+MAE value of the model on the test images: 0.4185353844353637
+/home/elicer/nima_with_ConvNeXt.py:512: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('./vit_best.pt', map_location=device)
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/elicer/.local/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:949: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+--- 최종 테스트 결과 ---
+Accuracy: 79.4794
+LCC_mean: 0.6792
+SRCC_mean: 0.6622
+LCC_std: 0.2801
+SRCC_std: 0.2630
+EMD: 0.0468
